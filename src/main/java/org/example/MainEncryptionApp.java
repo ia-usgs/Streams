@@ -11,11 +11,13 @@ public class MainEncryptionApp {
 
         while (!exit) {
             System.out.println("\n----- Top-Level Menu -----");
-            System.out.println("1. Read a file given a name by the user.");
-            System.out.println("2. Encode a string to encrypted form and write it out to a file.");
-            System.out.println("3. Decrypt a coded string back to the original string given a file containing the encrypted data.");
+            System.out.println("1. Read a file name");
+            System.out.println("2. Encode a string to encrypted form");
+            System.out.println("3. Decrypt the coded string");
             System.out.println("4. Exit the program.");
+            System.out.println("NOTE: Be sure to first select option 2 so you can read the name in option 1!");
             System.out.print("Enter your choice (1/2/3/4): ");
+
 
             int choice = scanner.nextInt();
             scanner.nextLine();
